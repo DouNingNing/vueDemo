@@ -11,7 +11,7 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
 var express = require('express')
-var proxyMiddleware = require('http-proxy-middleware')
+var proxy = require('http-proxy-middleware')
 var axios = require('axios') // axios是vue提供的ajax库
 var app = express()
 var apiRoutes = express.Router()
